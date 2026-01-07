@@ -39,11 +39,6 @@ body {
 	font-size: 35px;
 	font-weight: 700;
 }
-.common-para {
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 30;
-}
 .common-para2 {
 	font-size: 16px;
 	font-weight: 400;
@@ -58,10 +53,6 @@ body {
 	cursor: pointer;
 	font-size: 20px;
 	font-weight: 700;
-}
-.btn:hover {
-	background-color: transparent;
-	color: #181818;
 }
 .primary-color {
 	color: #181818;
@@ -80,25 +71,148 @@ body {
 
 /* header section start */
 
-.header {
+#header {
 	background-color: #fff8f3;
-	padding: 27px 0;
+	background-image: url(../images/developer.png), url(../images/header_bg.png);
+	background-repeat: no-repeat;
+	background-position: 38px 30px, bottom right;
 }
-.header .main-menu .logo h2 {
+#header .main-menu {
+	padding: 25px 0;
+}
+#header .main-menu .logo h2 {
 	font-size: 45px;
 	font-weight: 900;
 }
-.header .main-menu .logo h2 span {
+#header .main-menu .logo h2 span {
 	color: #fd6e0a;
 }
-.header .main-menu .menu-item ul li a {
+#header .main-menu .menu-item ul li a {
 	color: #474747;
 	font-size: 20px;
 }
 
+/* Banner section start */
+
+#banner {
+	margin: 50px 38px 0 230px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 100px;
+}
+#banner .banner-content {
+	width: 585px;
+}
+#banner .banner-content h2 {
+	font-size: 45px;
+	font-weight: 600;
+	color: #474747;
+}
+#banner .banner-content h1 {
+	font-size: 85px;
+	font-weight: 700;
+	color: #181818;
+	margin: 20px 0;
+}
+.banner-content p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+}
+#banner .banner-content .btn-group {
+	display: flex;
+	gap: 30px;
+	margin-top: 30px;
+}
+#banner .banner-content .btn-group .btn:nth-child(2) {
+	background: transparent;
+	border: 1px solid #fd6e0a;
+	color: #fd6e0a;
+}
+
+/* Banner section ends */
+
 /* header section end */
 
 /* main section start */
+
+/* About section start */
+#about-section {
+	margin-top: 130px;
+}
+#about-section .about-bg {
+	background-color: #fff8f3;
+	border-radius: 10px;
+	text-align: center;
+	padding: 131px 140px;
+}
+#about-section .about-content {
+	max-width: 827px;
+	text-align: center;
+}
+#about-section .about-content .about-para {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	padding: 30px 0;
+}
+#about-section .about-content .card-items .card-item p {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+}
+#about-section .about-content .card-items .card-item h4 {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 30px;
+	color: #474747;
+}
+/* About section end */
+
+/* Service section start */
+
+#service-section {
+	margin-top: 130px;
+}
+#service-section .service-content {
+	max-width: 827px;
+	text-align: center;
+	margin: 0 auto;
+}
+#service-section .service-content p {
+	padding: 30px 0 50px 0;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+}
+#service-section .service-cards-box {
+	display: flex;
+	gap: 24px;
+}
+#service-section .service-cards-box .service-card {
+	padding: 30px;
+	max-width: 267px;
+	box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.27);
+}
+#service-section .service-cards-box .service-card img {
+	max-width: 44px;
+	margin-bottom: 30px;
+}
+
+#service-section .service-cards-box .service-card h3 {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+#service-section .service-cards-box .service-card p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+/* Service section end */
+
 /* main section end */
 
 /* footer section start */
