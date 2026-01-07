@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+img {
+	vertical-align: middle;
+}
+body {
+	font-family: "Open Sans", sans-serif;
+	font-optical-sizing: auto;
+}
+
+/* common css */
+
+.container {
+	width: 71%;
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.sub-heading {
+	font-size: 35px;
+	font-weight: 700;
+}
+.common-para {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30;
+}
+.common-para2 {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28;
+}
+.btn {
+	padding: 18px 35px;
+	color: #fff;
+	border: none;
+	background-color: #fd6e0a;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btn:hover {
+	background-color: transparent;
+	color: #181818;
+}
+.primary-color {
+	color: #181818;
+}
+.secondary-color {
+	color: #757575;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+}
+
+/* shared css */
+
+/* header section start */
+.header {
+	background-color: #fff8f3;
+	padding: 27px 0;
+}
+.header .main-menu .logo h2 {
+	font-size: 45px;
+	font-weight: 900;
+}
+.header .main-menu .logo h2 span {
+	color: #fd6e0a;
+}
+.header .main-menu {
+}
+/* header section end */
+
+/* main section start */
+/* main section end */
+
+/* footer section start */
+/* footer section end */
