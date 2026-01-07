@@ -56,6 +56,8 @@ body {
 	background-color: #fd6e0a;
 	border-radius: 5px;
 	cursor: pointer;
+	font-size: 20px;
+	font-weight: 700;
 }
 .btn:hover {
 	background-color: transparent;
@@ -77,6 +79,7 @@ body {
 /* shared css */
 
 /* header section start */
+
 .header {
 	background-color: #fff8f3;
 	padding: 27px 0;
@@ -88,8 +91,11 @@ body {
 .header .main-menu .logo h2 span {
 	color: #fd6e0a;
 }
-.header .main-menu {
+.header .main-menu .menu-item ul li a {
+	color: #474747;
+	font-size: 20px;
 }
+
 /* header section end */
 
 /* main section start */
