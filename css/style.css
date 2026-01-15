@@ -38,6 +38,7 @@ body {
 .sub-heading {
 	font-size: 35px;
 	font-weight: 700;
+	text-align: center;
 }
 .common-para2 {
 	font-size: 16px;
@@ -125,10 +126,13 @@ body {
 	gap: 30px;
 	margin-top: 30px;
 }
-#banner .banner-content .btn-group .btn:nth-child(2) {
+#banner .banner-content .btn-group .btn:last-child {
 	background: transparent;
 	border: 1px solid #fd6e0a;
 	color: #fd6e0a;
+}
+#banner .banner-image img {
+	width: 100%;
 }
 
 /* Banner section ends */
@@ -213,7 +217,220 @@ body {
 
 /* Service section end */
 
+/* Resume section start */
+
+#resume-section {
+	margin-top: 130px;
+}
+#resume-section .resume-content {
+	text-align: center;
+}
+#resume-section .resume-content .resume-heading {
+	margin: 0 auto;
+}
+#resume-section .resume-content .resume-info {
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
+	padding-top: 113px;
+	text-align: start;
+	margin-bottom: 50px;
+}
+#resume-section .resume-content .resume-info .resume-common h3 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #474747;
+	margin-bottom: 30px;
+}
+#resume-section .resume-content .resume-info .resume-common .resume-card h4 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #474747;
+	margin-bottom: 10px;
+}
+#resume-section .resume-content .resume-info .resume-common .resume-card h4 {
+	font-size: 25px;
+	font-weight: 700;
+	color: #474747;
+	margin-bottom: 10px;
+}
+#resume-section
+	.resume-content
+	.resume-info
+	.resume-common
+	.resume-card
+	.para-1 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	color: #757575;
+}
+#resume-section
+	.resume-content
+	.resume-info
+	.resume-common
+	.resume-card
+	.para-2 {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-bottom: 30px;
+	color: #757575;
+}
+hr {
+	margin-bottom: 30px;
+}
+
+/* Resume section end */
+
 /* main section end */
 
 /* footer section start */
+
+#footer-section {
+	margin-top: 113px;
+	padding: 130px 0;
+	background-color: #fff8f3;
+}
+#footer-section .footer-content {
+	display: flex;
+	justify-content: space-between;
+	gap: 117px;
+}
+#footer-section .footer-content .social {
+	width: 562px;
+}
+
+#footer-section .footer-content .social h2 {
+	text-align: start;
+	margin-bottom: 20px;
+	color: #181818;
+	font-size: 35px;
+	font-weight: 700;
+}
+#footer-section .footer-content .social p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-bottom: 30px;
+	color: #474747;
+}
+#footer-section .footer-content .social .social-icon {
+	display: flex;
+	gap: 24px;
+}
+#footer-section .footer-content .social .social-icon img {
+	cursor: pointer;
+}
+#footer-section .footer-content .form {
+	width: 451px;
+}
+#footer-section .footer-content .form h2 {
+	margin-bottom: 20px;
+	color: #181818;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+#footer-section .footer-content .form input {
+	border: none;
+	outline: none;
+	padding: 18px 30px;
+	margin-bottom: 24px;
+}
+#footer-section .footer-content .form .common-width {
+	width: 100%;
+}
+
+#footer-section .footer-content .form textarea {
+	border: none;
+	outline: none;
+	padding: 18px 30px;
+	margin-bottom: 24px;
+	width: 100%;
+}
 /* footer section end */
+
+/* Responsive area start */
+
+@media screen and (max-width: 576px) {
+	#header .main-menu,
+	ul,
+	#banner,
+	.btn-group,
+	.card-items,
+	.service-cards-box,
+	#resume-section .resume-content .resume-info,
+	#footer-section .footer-content {
+		flex-direction: column;
+	}
+	#header .main-menu ul,
+	#banner,
+	.card-items,
+	#footer-section .footer-content {
+		gap: 20px;
+	}
+	#header {
+		background-image: url(../images/header_bg.png);
+		background-repeat: no-repeat;
+		background-position: bottom right;
+	}
+	#banner {
+		margin: 20px;
+	}
+	#banner .banner-content,
+	#footer-section .footer-content .social,
+	#footer-section .footer-content .form {
+		width: 100%;
+		text-align: center;
+	}
+	#banner .banner-content h2,
+	#resume-section .resume-content h2 {
+		font-size: 30px;
+	}
+	#banner .banner-content h1 {
+		font-size: 55px;
+	}
+
+	#about-section .about-bg {
+		padding: 20px;
+	}
+	#about-section,
+	#service-section,
+	#resume-section,
+	#footer-section {
+		margin-top: 50px;
+	}
+	#resume-section .resume-content .resume-info .resume-common h3 {
+		font-size: 25px;
+	}
+	#resume-section .resume-content .resume-info .resume-common .resume-card h4 {
+		font-size: 20px;
+	}
+	#resume-section
+		.resume-content
+		.resume-info
+		.resume-common
+		.resume-card
+		.para-1 {
+		font-size: 15px;
+	}
+	#resume-section
+		.resume-content
+		.resume-info
+		.resume-common
+		.resume-card
+		.para-2 {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	#footer-section {
+		padding-top: 50px;
+	}
+	#footer-section .footer-content .social .social-icon {
+		justify-content: center;
+	}
+}
+
+@media screen and (min-width: 576.98px) and (max-width: 768px) {
+}
